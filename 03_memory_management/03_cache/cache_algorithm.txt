@@ -1,0 +1,14 @@
+0. caches
+lfu: least frequent used
+lru: least recent used
+fifo: first in first out
+
+1. if exists
+lfu: times++
+lru: move to end
+fifo: do nth
+
+2. if full
+lfu: replace the min_times one
+lru: replace the head one
+fifo: replace the head one
